@@ -13,8 +13,9 @@ function App() {
   const [count, setCount] = useState(0)
 
   const openResume = () => {
-    const resumePath = 'src/resume-page.html';
-    window.open(resumePath, '_blank');
+    // const resumePath = 'src/resume-page.html';
+    // window.open(resumePath, '_blank');
+    window.location.href = 'mailto:bryandang10@gmail.com'
   }
 
   return (
@@ -32,9 +33,9 @@ function App() {
       </p>
       
       <div className="resume">
-        {/* <button onClick={openResume}>
-          See My Resume
-        </button> */}
+        <button onClick={openResume}>
+          Get in Touch
+        </button>
         <div>
           <a href="https://www.linkedin.com/in/bryanjhdang/" target="_blank">
             <img src={linkedinLogo} className="logo-linkedin" alt="LinkedIn logo" />
