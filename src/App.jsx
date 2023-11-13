@@ -32,9 +32,9 @@ function App() {
       </p>
       
       <div className="resume">
-        <button onClick={openResume}>
+        {/* <button onClick={openResume}>
           See My Resume
-        </button>
+        </button> */}
         <div>
           <a href="https://www.linkedin.com/in/bryanjhdang/" target="_blank">
             <img src={linkedinLogo} className="logo-linkedin" alt="LinkedIn logo" />
