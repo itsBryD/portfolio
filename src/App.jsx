@@ -13,7 +13,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   const openResume = () => {
-    const resumePath = 'src/assets/Resume.pdf';
+    const resumePath = 'src/assets/resume.pdf';
     window.open(resumePath, '_blank');
   }
 
